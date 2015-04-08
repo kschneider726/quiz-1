@@ -1,2 +1,38 @@
 /* Your Styling */
-body{background-color:#a10023;}
+body {
+	background-color:#a10023;
+}
+
+h1 {
+	background: yellow;
+	border-radius: 100px;
+	color: #fff;
+	line-height: 100px;
+	text-align: center;
+	height: 100px;
+	width: 100px;
+}
+
+h1:hover {
+	background: blue;
+	margin-top: 50px;
+	transition: background .5s;
+}
+
+h3 {
+	background: teal;
+	display: block;
+	height: 100px;
+	width: 100px;
+}
+
+p {
+	background: purple;
+}
+
+a {
+	background: green;
+	display: block;
+	height: 100px;
+	width: 100px;
+}
